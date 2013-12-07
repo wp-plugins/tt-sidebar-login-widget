@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Rashed Latif
+Contributors: rashedlatif
 Tags: sidebar, login, login form, sidebar widget, meta, form, register
 Requires at least: 3.0
 Tested up to: 3.7.1
