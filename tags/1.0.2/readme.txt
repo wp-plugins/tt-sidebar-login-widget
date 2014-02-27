@@ -1,6 +1,7 @@
 === Plugin Name ===
 Contributors: rashed.latif
 Tags: sidebar, login, login form, sidebar widget, meta, form, register
+Donate link: http://www.knowhowto.com.au/donate
 Requires at least: 3.0
 Tested up to: 3.7.1
 Stable tag: 1.0.2
