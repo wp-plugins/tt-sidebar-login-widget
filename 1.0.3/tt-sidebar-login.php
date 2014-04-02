@@ -5,7 +5,7 @@ Plugin URI: http://www.knowhowto.com.au/use-tt-sidebar-login-widget-log-wordpres
 Description: Sidebar widget to log into Wordpress Account
 Author: Rashed Latif
 Author URI: http://www.knowhowto.com.au/rashed-latif
-Version: 1.0.2
+Version: 1.0.3
 */
 
 
