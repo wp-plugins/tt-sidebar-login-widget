@@ -4,7 +4,7 @@ Tags: sidebar, login, login form, sidebar widget, meta, form, register
 Donate link: http://www.knowhowto.com.au/donate
 Requires at least: 3.0
 Tested up to: 3.7.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,3 +37,14 @@ Author will not provide any support for this plugin.  Other developers can use t
 1. The widget when logged in
 2. Widget settings
 3. The widget when logged out
+
+== Changelog ==
+
+= 1.0.3 =
+* Dashboard and Profile URL changed to work in subdirectories
+* Added an option to enable or disable displaying Post Counts
+
+== Upgrade Notice ==
+
+= 1.0.3 =
+This version enables the plugin to be used in subdirectory without any problem and also added an option to enable or disable displaying Post Counts.
