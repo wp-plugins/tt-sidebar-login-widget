@@ -35,7 +35,7 @@ class TTSidebarLogin extends WP_Widget{
 		$instance['chk_show_forgot'] = strip_tags($new_instance['chk_show_forgot']);
 		$instance['chk_show_dash'] = strip_tags($new_instance['chk_show_dash']);
 		$instance['chk_show_profile'] = strip_tags($new_instance['chk_show_profile']);
-		
+		$instance['chk_show_postcount'] = strip_tags($new_instance['chk_show_postcount']);
 		return $instance;
 	}
 
@@ -54,6 +54,7 @@ class TTSidebarLogin extends WP_Widget{
 				  'chk_show_register' => 'on',
 				  'chk_show_forgot' => 'on',
 				  'chk_show_dash' => 'on',
+				  'chk_show_postcount' => 'on',
 				  'chk_show_profile' => 'on'
 				  );
 		
@@ -150,6 +151,19 @@ class TTSidebarLogin extends WP_Widget{
 			<label for="<?php echo $this->get_field_id('chk_show_forgot'); ?>"> Show Forgotten Password Link </label>
 		        	
 		</p>
+		
+		<!-- Checkbox to turn on/off the option to display Post count -->
+		<p>
+			<input
+				type="checkbox"
+				<?php checked("$chk_show_postcount", 'on' ); ?>			
+				class="checkbox"
+				id="<?php echo $this->get_field_id('chk_show_postcount'); ?>"
+				name="<?php echo $this->get_field_name('chk_show_postcount'); ?>"
+			/>
+			<label for="<?php echo $this->get_field_id('chk_show_postcount'); ?>"> Show Post Count  </label>
+		        	
+		</p>
 		<?php
 	}
 	
@@ -221,7 +235,9 @@ class TTSidebarLogin extends WP_Widget{
 					echo '<p>';
 						_e('Logged in as ', 'default');
 						echo '<strong>' . ucfirst( implode(', ', $user_info->roles)) . '</strong> <br>';
-						echo 'Posts by you: '. count_user_posts( $user_info->ID ).'<br>';
+						if($chk_show_postcount=='on'){
+							echo 'Posts by you: '. count_user_posts( $user_info->ID ).'<br>';
+						}
 					echo "</p>";
 					?>
 					</div>		
@@ -229,15 +245,16 @@ class TTSidebarLogin extends WP_Widget{
 					<ul id="<?php if($chk_show_avatar=='on') echo 'sidebar-login-links';else echo 'sidebar-login-links-left'; ?>">
 						
 						<?php if($chk_show_dash == 'on'){ ?>
-							<li><a href="<?php echo home_url() ?>/wp-admin/"><?php _e( 'Dashboard' , 'default' ) ?> </a>|</li>
+							<li><a href="<?php echo admin_url() ?>"><?php _e( 'Dashboard' , 'default' ) ?> </a>|</li>
 						<?php } ?>
 						<?php if($chk_show_profile == 'on'){ ?>
-							<li><a href="<?php echo home_url() ?>/wp-admin/profile.php"><?php _e( 'Profile' , 'tie' ) ?> </a>|</li>
+							<li><a href="<?php echo admin_url() ?>profile.php"><?php _e( 'Profile' , 'tie' ) ?> </a>|</li>
 						<?php } ?>	
 							<li><a href="<?php echo wp_logout_url($redirect); ?>"><?php _e( 'Logout' , 'tie' ) ?> </a></li>
 												
 					</ul>
-					<?php				
+					
+					<?php
 			}
 			/*If user is not logged in then show login form*/
 			else{
