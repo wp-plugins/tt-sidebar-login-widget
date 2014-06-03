@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: rashed.latif
-Tags: sidebar, login, login form, sidebar widget, meta, form, register
+Tags: sidebar, login, login form, sidebar widget, meta, form, register, multiple language, internationalize, arabic, bengali, french, spanish, portuguese, italian, greek, german, dutch 
 Donate link: http://www.knowhowto.com.au/donate
 Requires at least: 3.0
 Tested up to: 3.8.1
