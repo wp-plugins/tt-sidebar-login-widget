@@ -52,10 +52,13 @@ In the latest version support for 9 languages are added. Google Translator is us
 * Dashboard and Profile URL changed to work in subdirectories
 * Added an option to enable or disable displaying Post Counts
 
+= 2.0.1 =
+Now 9 Languages are supported. Arabic, Bengali, German, Greek, Spanish, French, Italian, Dutch and Portuguese. Google Translator is used for the translation. As Google translator is a machine translator so the translation may not be 100% accurate but it can be modifed manually using poedit. See Plugin Description for the detailed guide how to edit translation manually.
+
 == Upgrade Notice ==
 
 = 1.0.3 =
 This version enables the plugin to be used in subdirectory without any problem and also added an option to enable or disable displaying Post Counts.
 
 = 2.0.1 =
-Now 9 Languages are supported. Arabic, Bengali, German, Greek, Spanish, French, Italian, Dutch and Portuguese. Google Translator is used for the translation. As Google translator is a machine translator so the translation may not be 100% accurate but it can be modifed manually using poedit. See Plugin Description for the detailed guide how to edit translation manually.
+Now 9 Languages are supported. Arabic, Bengali, German, Greek, Spanish, French, Italian, Dutch and Portuguese.
