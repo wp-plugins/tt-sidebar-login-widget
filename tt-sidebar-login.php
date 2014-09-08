@@ -1,10 +1,13 @@
 <?php
 /*
 Plugin Name: Sidebar Login Widget
-Plugin URI: http://www.knowhowto.com.au/use-tt-sidebar-login-widget-log-wordpress/
+Plugin URI: http://www.technologiestoday.com.au/guide-to-use-tt-sidebar-login-widget-plugin-for-wordpress/
 Description: Sidebar widget to log into Wordpress Account
 Author: Rashed Latif
-Author URI: http://www.knowhowto.com.au/rashed-latif
+Author URI: http://www.technologiestoday.com.au/rashed-latif
+Donate link: http://www.technologiestoday.com.au/donate
+Requires at least: 3.0.1
+Tested up to: 4.0
 Version: 2.0.1
 */
 
