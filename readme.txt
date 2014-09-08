@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-*I Appreciate if you please give reviews and any suggestions after using this plugin.*
+*I Appreciate if you please give reviews and any suggestions after using this plugin. If you like this plugin you can donate or contribute by clicking on this [link](http://www.technologiestoday.com.au/donate/)*
 
 TT Sidebar Login is a widget plugin developed by Rashed Latif. There are many similar plugins available that Can be used for logging into Wordpress sites. This plugin can be downloaded [here]. It is styled to fit into different themes but still there could be some problem in styling depending on the themes which can be fixed by anyone who knows CSS and HTML. Check the [TT Sidebar Login Widget](http://www.technologiestoday.com.au/guide-to-use-tt-sidebar-login-widget-plugin-for-wordpress) plugin page for more information and installation guide.  
 
