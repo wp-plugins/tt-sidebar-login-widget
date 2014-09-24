@@ -8,7 +8,7 @@ Author URI: http://www.technologiestoday.com.au/rashed-latif
 Donate link: http://www.technologiestoday.com.au/donate
 Requires at least: 3.0.1
 Tested up to: 4.0
-Version: 2.0.1
+Version: 2.1
 */
 
 

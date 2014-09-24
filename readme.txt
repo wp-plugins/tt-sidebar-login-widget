@@ -1,8 +1,12 @@
 === Plugin Name ===
 Contributors: rashed.latif
+Tags: sidebar, login, login form, sidebar widget, meta, form, register, multiple language, internationalize, arabic, bengali, french, spanish, portuguese, italian, greek, german, dutch, Danish, Chinese (Simplified), Chinese (Traditional), Filipino, Malay, Korean, Bosnian, Croatian, Albanian  
+Donate link: http://www.technologiestoday.com.au/donate/
 Tags: sidebar, login, login form, sidebar widget, meta, form, register, multiple language, internationalize, arabic, bengali, french, spanish, portuguese, italian, greek, german, dutch 
 Donate link: http://www.technologiestoday.com.au/donate/
 Requires at least: 3.0
+Tested up to: 4.0
+Stable tag: 2.1
 Tested up to: 4.0
 Stable tag: 2.0.1
 License: GPLv2 or later
@@ -37,6 +41,9 @@ TT Sidebar Login is a widget plugin developed by Rashed Latif. There are many si
 = 2.0.1 =
 Now 9 Languages are supported. Arabic, Bengali, German, Greek, Spanish, French, Italian, Dutch and Portuguese. Google Translator is used for the translation. As Google translator is a machine translator so the translation may not be 100% accurate but it can be modifed manually using poedit. See Plugin Description for the detailed guide how to edit translation manually.
 
+= 2.1 =
+9 More Languages Added. New Languages are  Danish, Chinese (Simplified), Chinese (Traditional), Filipino, Malay, Korean, Bosnian, Croatian, Albanian.  Also option to display/hide logged in user name is added.
+
 == Upgrade Notice ==
 
 = 1.0.3 =
@@ -44,3 +51,6 @@ This version enables the plugin to be used in subdirectory without any problem a
 
 = 2.0.1 =
 Now 9 Languages are supported. Arabic, Bengali, German, Greek, Spanish, French, Italian, Dutch and Portuguese.
+
+= 2.1 =
+9 More Languages Added. Also option to display/hide logged in user name is added.
