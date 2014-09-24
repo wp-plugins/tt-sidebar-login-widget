@@ -33,6 +33,7 @@ class TTSidebarLogin extends WP_Widget{
 		$instance = $old_instance;
 		$instance['title'] = strip_tags($new_instance['title']);
 		$instance['chk_show_avatar'] = strip_tags($new_instance['chk_show_avatar']);
+		$instance['chk_show_user'] = strip_tags($new_instance['chk_show_user']);
 		$instance['chk_show_remember'] = strip_tags($new_instance['chk_show_remember']);
 		$instance['chk_show_register'] = strip_tags($new_instance['chk_show_register']);
 		$instance['chk_show_forgot'] = strip_tags($new_instance['chk_show_forgot']);
@@ -53,6 +54,7 @@ class TTSidebarLogin extends WP_Widget{
 		$defaults = array(
 				  'title' => 'Login',
 				  'chk_show_avatar' => 'on',
+				  'chk_show_user' => 'on',
 				  'chk_show_remember' => 'on',
 				  'chk_show_register' => 'on',
 				  'chk_show_forgot' => 'on',
@@ -87,6 +89,19 @@ class TTSidebarLogin extends WP_Widget{
 				name="<?php echo $this->get_field_name('chk_show_avatar'); ?>"
 			/>
 			<label for="<?php echo $this->get_field_id('chk_show_avatar'); ?>"><?php _e('Show Avatar', 'ttslw_text_domain'); ?></label>
+		        	
+		</p>
+		
+		<!-- Checkbox to turn on/off the option to display Logged in user name -->
+		<p>
+			<input
+				type="checkbox"
+				<?php checked("$chk_show_user", 'on' );?>			
+				class="checkbox"
+				id="<?php echo $this->get_field_id('chk_show_user'); ?>"
+				name="<?php echo $this->get_field_name('chk_show_user'); ?>"
+			/>
+			<label for="<?php echo $this->get_field_id('chk_show_user'); ?>"><?php _e('Show Logged in User name', 'ttslw_text_domain'); ?></label>
 		        	
 		</p>
 		
@@ -236,8 +251,10 @@ class TTSidebarLogin extends WP_Widget{
 							echo '<div class="avatar_container">' . get_avatar( $user_info->ID, apply_filters( 'sidebar_login_widget_avatar_size', 45 ) ) . '</div>';
 					}
 					echo '<p>';
+						if($chk_show_user=='on'){	
 						_e('Logged in as ', 'ttslw_text_domain');
 						echo '<strong>' . ucfirst( implode(', ', $user_info->roles)) . '</strong> <br>';
+						}
 						if($chk_show_postcount=='on'){
 							 _e('Posts by you','ttslw_text_domain'); echo ': '. count_user_posts( $user_info->ID ).'<br>';
 						}

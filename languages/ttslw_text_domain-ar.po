@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sidebar Login Widget\n"
-"POT-Creation-Date: 2014-06-03 16:35+1000\n"
-"PO-Revision-Date: 2014-06-03 21:55+1000\n"
+"POT-Creation-Date: 2014-09-20 12:16+1000\n"
+"PO-Revision-Date: 2014-09-20 12:19+1000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -17,98 +17,98 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../tt-sidebar-login.php:68
+#: ../tt-sidebar-login.php:70
 msgid "Title"
 msgstr "لقب"
 
-#: ../tt-sidebar-login.php:86
+#: ../tt-sidebar-login.php:88
 msgid "Show Avatar"
 msgstr "تظهر الصورة الرمزية "
 
-#: ../tt-sidebar-login.php:99
+#: ../tt-sidebar-login.php:101
+msgid "Show Logged in User name"
+msgstr "مشاهدة تسجيل في اسم العضو"
+
+#: ../tt-sidebar-login.php:114
 msgid "Show Dashboard Link"
 msgstr "تظهر لوحة لينك"
 
-#: ../tt-sidebar-login.php:112
+#: ../tt-sidebar-login.php:127
 msgid "Show Profile Link"
 msgstr "عرض الملف الشخصي صلة "
 
-#: ../tt-sidebar-login.php:125
+#: ../tt-sidebar-login.php:140
 msgid "Show Remember me"
 msgstr "عرض تذكرني"
 
-#: ../tt-sidebar-login.php:138
+#: ../tt-sidebar-login.php:153
 msgid "Show Register Link"
 msgstr "مشاهدة تسجيل لينك"
 
-#: ../tt-sidebar-login.php:151
+#: ../tt-sidebar-login.php:166
 msgid "Show Forgotten Password Link"
 msgstr "مشاهدة نسيت كلمة رابط "
 
-#: ../tt-sidebar-login.php:164
+#: ../tt-sidebar-login.php:179
 msgid "Show Post Count"
 msgstr "عرض مشاركة وعدد "
 
-#: ../tt-sidebar-login.php:182
+#: ../tt-sidebar-login.php:197
 msgid "Member's Login"
 msgstr "دخول العضو "
 
-#: ../tt-sidebar-login.php:192
+#: ../tt-sidebar-login.php:207
 msgid "Welcome"
 msgstr "ترحيب "
 
-#: ../tt-sidebar-login.php:209
+#: ../tt-sidebar-login.php:224
 msgid "Enter both Username and Password"
 msgstr "يدخل كل من اسم المستخدم وكلمة المرور"
 
-#: ../tt-sidebar-login.php:212
+#: ../tt-sidebar-login.php:227
 msgid "Username is not registered"
 msgstr "لم يتم تسجيل اسم المستخدم "
 
-#: ../tt-sidebar-login.php:215
+#: ../tt-sidebar-login.php:230
 msgid "Incorrect Password"
 msgstr "كلمة المرور غير صحيحة"
 
-#: ../tt-sidebar-login.php:236
+#: ../tt-sidebar-login.php:252
 msgid "Logged in as "
 msgstr "مسجله في "
 
-#: ../tt-sidebar-login.php:239
+#: ../tt-sidebar-login.php:256
 msgid "Posts by you"
 msgstr "ردودك"
 
-#: ../tt-sidebar-login.php:248
+#: ../tt-sidebar-login.php:265
 msgid "Dashboard"
 msgstr "لوحة القيادة "
 
-#: ../tt-sidebar-login.php:251
+#: ../tt-sidebar-login.php:268
 msgid "Profile"
 msgstr "ملف "
 
-#: ../tt-sidebar-login.php:253
+#: ../tt-sidebar-login.php:270
 msgid "Logout"
 msgstr "تسجيل الخروج"
 
-#: ../tt-sidebar-login.php:265
+#: ../tt-sidebar-login.php:282
 msgid "Username"
 msgstr "اسم المستخدم "
 
-#: ../tt-sidebar-login.php:266
+#: ../tt-sidebar-login.php:283
 msgid "Password"
 msgstr "كلمة السر "
 
-#: ../tt-sidebar-login.php:272
+#: ../tt-sidebar-login.php:289
 msgid "Register"
 msgstr "تسجيل "
 
-#: ../tt-sidebar-login.php:274
+#: ../tt-sidebar-login.php:291
 msgid "Forgot Password?"
 msgstr "نسيت كلمة المرور؟"
 
-#: ../tt-sidebar-login.php:317
+#: ../tt-sidebar-login.php:334
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
-msgstr ""
-
-#: ../tt-sidebar-login.php:336
-msgid "Hello World"
 msgstr ""
